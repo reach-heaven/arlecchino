@@ -1,0 +1,84 @@
+.chess {
+  width: 48rem;
+  min-height: 48rem;
+  background-color: rgb(22, 1, 1);
+  margin: 3rem auto;
+  color: white;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  position: relative;
+  display: block;
+  overflow: visible;
+  border-radius: 100px 0px 100px 0px;
+  border: 1px solid white;
+}
+
+.chess .whitespace {
+  width: 15rem;
+  height: 45rem;
+  margin: 0.5rem;
+  background-image: url(https://i.pinimg.com/736x/45/87/49/458749e19fe5eb308cc14a5aea981a35.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+  top: 0;
+  float: right;
+  filter: brightness(85%);
+  border: 1px white solid;
+  border-radius: 100px 0px 100px 0px;
+  display: flex;
+  text-align: center;
+  line-height: 13rem;
+  color: rgb(255, 255, 255);
+  font-size: 6rem;
+  font-family: 'Pinyon Script';
+  text-shadow: 1px 2px 13px rgb(217, 217, 217);
+}
+
+.chess .text p {
+  padding: 1rem 1rem 1rem 2rem;
+  text-align: justify;
+  font-family: 'Darker Grotesque';
+  font-size: 1.2rem;
+  color: rgb(229, 229, 229);
+  width: 29rem;
+  letter-spacing: 1px;
+  z-index: 2;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.chess .text p::first-letter{
+  margin-left: 1.5rem;
+  font-size: 4rem;
+  font-family: 'Pinyon Script';
+  line-height: 1rem;
+}
+
+.chess .extra {
+  border: 1px rgb(255, 255, 255) solid;
+  width: 27rem;
+  text-align: center;
+  line-height: 5rem;
+  margin: 0rem 0 1rem 2.5rem;
+  background-color: rgb(12, 1, 1);
+}
+
+.chess details {
+  color:rgb(212, 212, 212);
+  font-family: 'Pinyon Script';
+  font-size: 2.5rem;
+}
+
+.chess summary {
+  list-style-type: none;
+}
+
+.chess details p {
+  font-family: 'Epilogue';
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1rem;
+  margin: 0 auto;
+  line-height: 5px;
+}
