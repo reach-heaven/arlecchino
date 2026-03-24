@@ -27,12 +27,17 @@
   border: 1px white solid;
   border-radius: 100px 0px 100px 0px;
   display: flex;
-  text-align: center;
   line-height: 13rem;
   color: rgb(255, 255, 255);
   font-size: 6rem;
   font-family: 'Pinyon Script';
   text-shadow: 1px 2px 13px rgb(217, 217, 217);
+}
+
+.chess .whitespace p {
+  margin-left: 0.45rem;
+  display: flex;
+  margin: 0 auto;
 }
 
 .chess .text p {
@@ -59,7 +64,7 @@
   border: 1px rgb(255, 255, 255) solid;
   width: 27rem;
   text-align: center;
-  line-height: 5rem;
+  line-height: 4rem;
   margin: 0rem 0 1rem 2.5rem;
   background-color: rgb(12, 1, 1);
 }
@@ -80,5 +85,5 @@
   text-align: justify;
   padding: 1rem;
   margin: 0 auto;
-  line-height: 5px;
+  line-height: 1rem;
 }
